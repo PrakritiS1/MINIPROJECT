@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prakriti Singh - Software Development Engineer Intern Portfolio">
+  <title>Prakriti Singh | Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#home" class="logo">PS<span>.</span></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">SOFTWARE DEVELOPMENT ENGINEER INTERN</p>
+        <h1>Hi, I'm <span>Prakriti Singh</span></h1>
+        <h2>Full-Stack Development & Distributed Systems</h2>
+        <p class="hero-description">
+          Computer Science Engineering student at Uttaranchal University,
+          building software with Java, JavaScript, Python, Spring Boot,
+          React and cloud-native technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="quick-stats">
+          <div><strong>400+</strong><span>DSA Problems</span></div>
+          <div><strong>8.6</strong><span>CGPA</span></div>
+          <div><strong>2028</strong><span>Graduation</span></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar">PS</div>
+        <h3>Prakriti Singh</h3>
+        <p>Software Engineer • CSE Student</p>
+        <div class="availability"><i></i> Open to opportunities</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Building, learning & shipping.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a Computer Science Engineering student at Uttaranchal University,
+            Dehradun, with a focus on software engineering, backend development,
+            distributed systems and full-stack development.
+          </p>
+          <p>
+            I enjoy taking projects from architecture and implementation through
+            deployment and monitoring, while continuously improving my DSA,
+            system design and development skills.
+          </p>
+          <p>
+            I have also participated in hackathons, competitive programming,
+            open-source activities and student technology communities.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <div><span>Education</span><strong>B.Tech CSE</strong></div>
+          <div><span>University</span><strong>Uttaranchal University</strong></div>
+          <div><span>Location</span><strong>Dehradun, India</strong></div>
+          <div><span>Expected Graduation</span><strong>2028</strong></div>
+          <div><span>CGPA</span><strong>9.0/ 10</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">EXPERIENCE</p>
+        <h2>Where I've worked & contributed</h2>
+      </div>
+
+      <div class="timeline">
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="date">JUN 2026 — PRESENT</span>
+            <h3>Software Engineering Intern — ZeTheta</h3>
+            <p>
+              Working on scalable fintech workflows, backend system design,
+              transaction-processing modules and monitoring/logging infrastructure
+              in an Agile environment.
+            </p>
+            <div class="tags">
+              <span>Java</span><span>Backend</span><span>FinTech</span><span>Agile</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="date">VIRTUAL INTERNSHIP</span>
+            <h3>Software Intern — Woosta Startup</h3>
+            <p>
+              Virtual software internship experience at Woosta, contributing to
+              software development and practical engineering work.
+            </p>
+            <div class="tags">
+              <span>Software Development</span><span>Internship</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="date">DEC 2025 — JAN 2026</span>
+            <h3>Software Engineering Virtual Intern — JPMorgan Chase & Co.</h3>
+            <p>
+              Worked on simulated transaction-processing systems, debugging,
+              query optimization, logging and Git-based collaboration.
+            </p>
+            <div class="tags">
+              <span>Java</span><span>Git</span><span>Transactions</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="date">2026</span>
+            <h3>Google Student Ambassador</h3>
+            <p>
+              Selected as a Google Student Ambassador and involved in student
+              technology activities, workshops and peer learning.
+            </p>
+            <div class="tags">
+              <span>Google</span><span>Community</span><span>Workshops</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>Things I've built</h2>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <h3>Distributed URL Shortener</h3>
+          <p>
+            A distributed TinyURL-style system using Redis caching,
+            PostgreSQL persistence, Kafka analytics and Docker.
+          </p>
+          <div class="tags">
+            <span>Java</span><span>Spring Boot</span><span>Redis</span>
+            <span>PostgreSQL</span><span>Kafka</span><span>Docker</span>
+          </div>
+          <p class="metric">100,000+ requests/day • 99.95% uptime</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>High-Performance Financial Transaction System</h3>
+          <p>
+            Scalable transaction-processing system focused on high throughput,
+            low latency, database optimization and availability.
+          </p>
+          <div class="tags">
+            <span>Java</span><span>Distributed Systems</span><span>System Design</span>
+          </div>
+          <p class="metric">12,000+ TPS • &lt;100ms latency</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Compressly</h3>
+          <p>
+            Full-stack smart image compression platform with React frontend,
+            Node.js backend and support for multiple image formats.
+          </p>
+          <div class="tags">
+            <span>React</span><span>Node.js</span><span>HTML</span>
+            <span>CSS</span><span>Bootstrap</span>
+          </div>
+          <p class="metric">40% file-size reduction • 5+ formats</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04</div>
+          <h3>HerGuard AI</h3>
+          <p>
+            Women safety emergency assistant concept with GPS tracking,
+            SOS alerts, Firebase and AI/ML-based threat detection.
+          </p>
+          <div class="tags">
+            <span>Android</span><span>AI/ML</span><span>GPS</span><span>Firebase</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">05</div>
+          <h3>Smart India Hackathon</h3>
+          <p>
+            Participated in Smart India Hackathon with a team, building and
+            pitching a working prototype under time constraints.
+          </p>
+          <div class="tags">
+            <span>Hackathon</span><span>Teamwork</span><span>Prototype</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">06</div>
+          <h3>Sudoku Game</h3>
+          <p>
+            Browser-based Sudoku game built with HTML, CSS and JavaScript,
+            featuring timer, mistakes tracking, reset, new game and keyboard support.
+          </p>
+          <div class="tags">
+            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="achievements" class="section alt">
+      <div class="section-heading">
+        <p class="eyebrow">ACHIEVEMENTS & SELECTIONS</p>
+        <h2>Milestones</h2>
+      </div>
+
+      <div class="achievement-grid">
+        <div class="achievement">
+          <div class="achievement-icon">🏆</div>
+          <div>
+            <h3>LeetCode Contest</h3>
+            <p>Global Rank 305 among 37,985+ participants.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">💻</div>
+          <div>
+            <h3>400+ DSA Problems</h3>
+            <p>Consistent competitive programming and DSA practice.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">🚀</div>
+          <div>
+            <h3>Flipkart GRiD 8.0</h3>
+            <p>Qualified for Round 2.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">🌐</div>
+          <div>
+            <h3>Google Student Ambassador</h3>
+            <p>Selected as a Google Student Ambassador in 2026.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">📚</div>
+          <div>
+            <h3>Infosys Springboard Pragati</h3>
+            <p>Selected for Infosys Springboard Pragati Cohort 9.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">🎓</div>
+          <div>
+            <h3>C Free Course</h3>
+            <p>Completed C Free course.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">🇮🇳</div>
+          <div>
+            <h3>Smart India Hackathon</h3>
+            <p>Participated as part of a team and built a working prototype.</p>
+          </div>
+        </div>
+
+        <div class="achievement">
+          <div class="achievement-icon">🤖</div>
+          <div>
+            <h3>AI/ML Certification</h3>
+            <p>Advanced AI/ML Certification — Score: 22/25.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">TECH STACK</p>
+        <h2>Skills & Technologies</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <div class="tags"><span>Java</span><span>JavaScript</span><span>Python</span><span>SQL</span></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <div class="tags"><span>Spring Boot</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <div class="tags"><span>React.js</span><span>HTML5</span><span>CSS3</span><span>Bootstrap</span></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <div class="tags"><span>PostgreSQL</span><span>MongoDB</span><span>Redis</span></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Cloud & DevOps</h3>
+          <div class="tags"><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>Linux</span><span>CI/CD</span></div>
+        </div>
+
+        <div class="skill-card">
+          <h3>Systems & Tools</h3>
+          <div class="tags"><span>Kafka</span><span>Prometheus</span><span>Grafana</span><span>Git/GitHub</span><span>Microservices</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <p class="eyebrow">LET'S CONNECT</p>
+      <h2>Have a project, opportunity or idea?</h2>
+      <p>I'm always interested in learning, building and collaborating.</p>
+      <a class="btn primary" href="mailto:prakritirajput003@gmail.com">Email Me</a>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Get in touch</h2>
+      </div>
+
+      <div class="contact-grid">
+        <a href="mailto:prakritirajput003@gmail.com">📧<span>prakritirajput003@gmail.com</span></a>
+        <a href="tel:+919279751183">📱<span>+91 9279751183</span></a>
+        <a href="https://github.com/PrakritiS1" target="_blank" rel="noopener">💻<span>GitHub — PrakritiS1</span></a>
+        <a href="https://www.linkedin.com/in/prakriti-singh23" target="_blank" rel="noopener">🔗<span>LinkedIn — Prakriti Singh</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Prakriti Singh. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
