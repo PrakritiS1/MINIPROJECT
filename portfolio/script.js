@@ -1,6 +1,6 @@
-// ================================
+
 // MOBILE MENU
-// ================================
+
 
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
@@ -10,7 +10,7 @@ menuBtn.addEventListener("click", function () {
 });
 
 
-// Close mobile menu after clicking a link
+// Closemenu link click krne kebad
 
 const navItems = document.querySelectorAll(".nav-links a");
 
@@ -25,9 +25,9 @@ navItems.forEach(function (link) {
 });
 
 
-// ================================
+
 // CURRENT YEAR
-// ================================
+
 
 const yearElement = document.getElementById("year");
 
@@ -39,9 +39,7 @@ if (yearElement) {
 }
 
 
-// ================================
-// SCROLL REVEAL ANIMATION
-// ================================
+
 
 const revealElements = document.querySelectorAll(
     ".project-card, .achievement, .timeline-item, .skill-card, .info-card"
@@ -63,7 +61,7 @@ revealElements.forEach(function (element) {
 });
 
 
-// Observer
+
 
 const observer = new IntersectionObserver(
 
@@ -73,9 +71,9 @@ const observer = new IntersectionObserver(
 
             if (entry.isIntersecting) {
 
-                entry.target.style.opacity = "1";
+        entry.target.style.opacity = "1";
 
-                entry.target.style.transform =
+         entry.target.style.transform =
                     "translateY(0)";
 
                 observer.unobserve(entry.target);
@@ -93,8 +91,6 @@ const observer = new IntersectionObserver(
 );
 
 
-// Start observing
-
 revealElements.forEach(function (element) {
 
     observer.observe(element);
@@ -102,9 +98,9 @@ revealElements.forEach(function (element) {
 });
 
 
-// ================================
+
 // SMOOTH SCROLL
-// ================================
+
 
 document.querySelectorAll(
     'a[href^="#"]'
@@ -134,9 +130,8 @@ document.querySelectorAll(
 });
 
 
-// ================================
-// NAVBAR SCROLL EFFECT
-// ================================
+
+
 
 const navbar =
     document.querySelector(".navbar");
@@ -158,9 +153,9 @@ window.addEventListener("scroll", function () {
 });
 
 
-// ================================
+
 // EMAIL BUTTON
-// ================================
+
 
 const emailButtons =
     document.querySelectorAll(
@@ -180,9 +175,9 @@ emailButtons.forEach(function (button) {
 });
 
 
-// ================================
+
 // PORTFOLIO LOADED
-// ================================
+
 
 console.log(
     "Prakriti Singh Portfolio Loaded Successfully 🚀"

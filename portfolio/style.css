@@ -42,7 +42,7 @@ a {
 
 .logo span,
 .hero h1 span {
-  color: #5b5ce2;
+  color: #d35acd;
 }
 
 .nav-links {
@@ -57,7 +57,7 @@ a {
 }
 
 .nav-links a:hover {
-  color: #5b5ce2;
+  color: #ca85cc;
 }
 
 .menu-btn {
@@ -80,7 +80,7 @@ a {
 }
 
 .eyebrow {
-  color: #5b5ce2;
+  color: #d19dd7;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 2px;
@@ -124,13 +124,13 @@ a {
 
 .btn.primary {
   color: white;
-  background: #5b5ce2;
+  background: #b076c8;
   box-shadow: 0 10px 24px rgba(91,92,226,.2);
 }
 
 .btn.primary:hover {
   transform: translateY(-2px);
-  background: #494acb;
+  background: #d471cc;
 }
 
 .btn.secondary {
@@ -173,7 +173,7 @@ a {
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: linear-gradient(135deg, #5b5ce2, #7b7cf2);
+  background: linear-gradient(135deg, #b487cb, #a67aad);
   color: white;
   font-size: 38px;
   font-weight: 800;
@@ -269,7 +269,8 @@ a {
 .timeline {
   max-width: 900px;
   margin: auto;
-  position: relative;
+  position: relative
+  ;
 }
 
 .timeline:before {

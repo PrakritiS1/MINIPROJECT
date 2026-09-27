@@ -1,6 +1,5 @@
-// ===============================
+
 // SUDOKU DATA
-// ===============================
 
 const puzzle = [
 
@@ -25,9 +24,9 @@ const puzzle = [
 ];
 
 
-// ===============================
+
 // CORRECT SOLUTION
-// ===============================
+
 
 const solution = [
 
@@ -52,9 +51,9 @@ const solution = [
 ];
 
 
-// ===============================
+
 // CURRENT BOARD
-// ===============================
+
 
 let board = [];
 
@@ -69,9 +68,9 @@ let seconds = 0;
 let timer;
 
 
-// ===============================
+
 // START GAME
-// ===============================
+
 
 function startGame() {
 
@@ -97,9 +96,9 @@ function startGame() {
 }
 
 
-// ===============================
+
 // CREATE BOARD
-// ===============================
+
 
 function createBoard() {
 
@@ -158,9 +157,9 @@ function createBoard() {
 }
 
 
-// ===============================
+
 // SELECT CELL
-// ===============================
+
 
 function selectCell(row, col) {
 
@@ -196,9 +195,9 @@ function selectCell(row, col) {
 }
 
 
-// ===============================
+
 // NUMBER CLICK
-// ===============================
+
 
 function numberClick(number) {
 
@@ -276,9 +275,9 @@ function numberClick(number) {
 }
 
 
-// ===============================
+
 // CHECK WIN
-// ===============================
+
 
 function checkWin() {
 
@@ -307,9 +306,9 @@ function checkWin() {
 }
 
 
-// ===============================
+
 // ERASE
-// ===============================
+
 
 function erase() {
 
@@ -343,9 +342,9 @@ function erase() {
 }
 
 
-// ===============================
+
 // RESET GAME
-// ===============================
+
 
 function resetGame() {
 
@@ -371,9 +370,9 @@ function resetGame() {
 }
 
 
-// ===============================
+
 // NEW GAME
-// ===============================
+
 
 function newGame() {
 
@@ -382,9 +381,9 @@ function newGame() {
 }
 
 
-// ===============================
+
 // TIMER
-// ===============================
+
 
 function updateTimer() {
 
@@ -416,8 +415,8 @@ function updateTimer() {
 }
 
 
-// ===============================
+
 // START
-// ===============================
+
 
 startGame();
